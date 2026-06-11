@@ -2,6 +2,12 @@
 
 A web-based 2048 puzzle game with an animated tutorial and Armenian voice narration.
 
+## ▶️ Play Now
+
+**[👉 Click here to play](https://gevorgyanhayk09-boop.github.io/2048/)**
+
+`https://gevorgyanhayk09-boop.github.io/2048/`
+
 ## Features
 
 - 🎯 **Classic 2048 gameplay** — combine tiles, reach 2048
@@ -17,24 +23,19 @@ A web-based 2048 puzzle game with an animated tutorial and Armenian voice narrat
 
 | File | Purpose |
 |---|---|
-| `2048_full.html` | **Main game** — single self-contained file with embedded tutorial |
+| `index.html` | **Main game** — single self-contained file with embedded tutorial |
 | `audio/narration.m4a` | Armenian voice narration for the animated tutorial |
 | `serve.ps1` | Optional: PowerShell static file server for local development |
 
-## Play
+## Run Locally
 
-### Online
-Once published to GitHub Pages, play at:
-`https://YOUR-USERNAME.github.io/REPO-NAME/2048_full.html`
-
-### Locally
-Just open `2048_full.html` in a browser. For the tutorial audio to load (the modal uses a Blob URL), you may need to serve the file via HTTP:
+Just open `index.html` in a browser. For the tutorial audio to load (the modal uses a Blob URL), you may need to serve the file via HTTP:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File serve.ps1 -Port 3000
 ```
 
-Then open http://localhost:3000/2048_full.html
+Then open http://localhost:3000/index.html
 
 ## How to Play
 
